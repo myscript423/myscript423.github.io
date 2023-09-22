@@ -7,10 +7,40 @@
 			a{
 				font-family:monospace;
 			}
+			.navbar {
+    background-color: #1d1d1d;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top:0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+
+.navbtn {
+    margin: 0px;
+    float: left;
+    display: block;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.navbtnlink {
+    display: block;
+    margin: 1em;
+}
 		</style>
 	</head>
 	<body>
-		<a href="https://scratch.mit.edu/users/myscript423">myscript423's Projects</a>
-		<p>Other projects:<a href="http://myscript423.github.io/projects/notify-info.html">Notify™</a></p>
+		<!-- Thanks awesome-llama! -->
+		<div class="navbar">
+    <div>
+      <a href="/" class="navbtn"><div class="navbtnlink">Home</div></a>
+      <a href="https://scratch.mit.edu/users/awesome-llama" class="navbtn"><div class="navbtnlink">Scratch</div></a>
+      <a href="https://www.youtube.com/channel/UCi3owKAqA-tXUBNwN-Cc6uw" class="navbtn"><div class="navbtnlink">YouTube</div></a>
+      <a href="/articles" class="navbtn"><div class="navbtnlink">Articles</div></a>
+      <a href="/projects" class="navbtn"><div class="navbtnlink">Projects</div></a>
+    </div>
+  </div>
 	</body>
 </html>
