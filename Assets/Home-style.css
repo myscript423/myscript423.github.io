@@ -1,0 +1,32 @@
+a{
+	font-family:monospace;
+	}
+.navbar {
+    background-color: #1d1d1d;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top:0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    }
+
+.navbtn {
+    margin: 0px;
+    float: left;
+    display: block;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.navbtnlink {
+    display: block;
+    margin: 1em;
+}
+.content  {
+    margin-top: 30px;
+    padding-top: 30px;
+    margin: 60px auto;
+    width: 60%;
+    word-spacing: 0.12em;
+    }
